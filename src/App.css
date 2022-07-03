@@ -236,6 +236,10 @@
   opacity: 0.7;
 }
 
+.header__tab:not(.active) {
+  color: #1a1919;
+}
+
 .header__tab.active {
   color: #0083e3 !important;
   border-bottom: 3px solid #0083e3;
