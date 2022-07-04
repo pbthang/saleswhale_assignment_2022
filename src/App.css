@@ -443,3 +443,15 @@
   color: #565656;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 992px) {
+  .teams__content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .teams__content {
+    grid-template-columns: 1fr;
+  }
+}
